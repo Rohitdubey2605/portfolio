@@ -1,0 +1,16 @@
+.Profile{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 100px;
+}
+
+.Image{
+    width: 240px;
+    height: 240px;
+    border: 5px;
+    border-style: solid;
+    border-color: #e0e0e0;
+    vertical-align: middle;
+    border-radius: 50%!important;
+}

@@ -1,0 +1,25 @@
+.MainHeader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #0069d9;
+  padding: 0 2rem;
+}
+
+.logo {
+  margin: 20px;
+  border-style: double;
+}
+
+.name {
+  position: fixed;
+  top: 20;
+  margin-left: 80px;
+  color: white;
+  display: flex;
+}
