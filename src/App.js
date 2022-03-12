@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import MainHeader from "./components/MainHeader/MainHeader";
 import Profile from "./components/Profile/Profile";
@@ -11,8 +10,8 @@ function App() {
     <Fragment>
       <MainHeader />
       <Profile></Profile>
-      <Navigation/>
-      <HomeData/>
+      <Navigation />
+      <HomeData />
     </Fragment>
   );
 }

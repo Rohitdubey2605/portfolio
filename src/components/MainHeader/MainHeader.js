@@ -1,5 +1,5 @@
 import styles from './MainHeader.module.css';
-import logo from '../../logoRD.jpg';
+import logo from '../../logoRD.png';
 const MainHeader = () =>
 {
     return (
