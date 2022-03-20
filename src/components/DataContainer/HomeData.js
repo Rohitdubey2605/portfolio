@@ -6,25 +6,36 @@ const HomeData = (props) => {
       <div className={styles.HomeData}>
         <h1 className={styles.h1}>Rohit Dubey</h1>
         <p className={styles.p}>
-          I'm a <b>Senior Software Engineer</b> at{" "}
+          Hey, I am Rohit, a{" "}
+          <strong className={styles.strong}>Senior Software Engineer</strong>{" "}
+          building solutions at
           <a
             className={styles.textColor}
             href="https://www.odessainc.com/"
             target="_blank"
-            rel="noreferrer"
           >
-            Odessa Tech
-          </a>{" "}
-          working on .Net as the technology stack. I'm also leading Google
-          Developers Group, Jalandhar as an Organizer and WTM Ambassador.
-        </p>
-        <p>
-          Along with that, I am the Gold facilitator of #IamRemarkable workshop,
-          an initiative by Google and the Chapter Lead for Malikah.
-        </p>
-        <p>
-          You can find me spending a lot of free time with #GDGJalandhar &
-          #WTMJalandhar and mentoring people who are interested in technology.
+            {" "}
+            Odessa{" "}
+          </a>
+          i.e.
+          <em className={styles.em}>
+            {" "}
+            Pricing Engine, Calculation Engine, GEC
+          </em>{" "}
+          etc.
+          <p className={styles.p}>
+            I currently write code in technologies like{" "}
+            <strong>.NET, C#, JavaScript, React.js</strong> and have been
+            exploring
+            <strong> Angular & NodeJS</strong> these days.
+          </p>
+          <p className={styles.p}>
+            I love trying my hands on new technologies to keep myself updated.
+            Ohh, not only this, I am good in
+            <em className={styles.em}> Data Structures & Algorithms </em> as
+            well and spend some of my time brushing up the concepts during the
+            weekends.
+          </p>
         </p>
       </div>
     </Card>

@@ -36,9 +36,23 @@
   text-align: justify;
 }
 
-.textColor{
-    text-decoration: none;
-    font-weight: bolder;
-    color: teal;
-    background-color: transparent;
+.textColor {
+  text-decoration: none;
+  font-weight: bolder;
+  color: #007bff;
+  background-color: transparent;
+}
+
+.em {
+  text-decoration: none;
+  font-weight: bolder;
+  color: #696969;
+  background-color: transparent;
+}
+
+.strong {
+  text-decoration: none;
+  font-weight: bolder;
+  color: #696969;
+  background-color: transparent;
 }

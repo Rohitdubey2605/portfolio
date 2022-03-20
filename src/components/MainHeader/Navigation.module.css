@@ -22,9 +22,11 @@
   color: #0069d9 !important;
 }
 
-.nav a:active {
+.nav a:active,
+.nav a.active {
   color: #0069d9 !important;
   font-weight: bolder;
+  font-size: x-large;
 }
 
 .hr {

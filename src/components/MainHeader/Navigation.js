@@ -1,4 +1,5 @@
 import { Fragment } from "react";
+import { NavLink } from "react-router-dom";
 import styles from "./Navigation.module.css";
 
 const Navigation = () => {
@@ -8,19 +9,19 @@ const Navigation = () => {
       <nav className={styles.nav}>
         <ul>
           <li>
-            <a href="/">HOME</a>
+            <NavLink activeClassName={styles.active} to="/home">HOME</NavLink>
+          </li>
+          {/* <li>
+            <NavLink  activeClassName={styles.active} to="/bio">BIO</NavLink>
+          </li> */}
+          <li>
+            <NavLink activeClassName={styles.active} to="/work">WORK</NavLink>
           </li>
           <li>
-            <a href="/">BIO</a>
+            <NavLink activeClassName={styles.active} to="/projects">PROJECTS</NavLink>
           </li>
           <li>
-            <a href="/">WORK</a>
-          </li>
-          <li>
-            <a href="/">PROJECTS</a>
-          </li>
-          <li>
-            <a href="/">CONTACT</a>
+          <NavLink activeClassName={styles.active} to="/contact">CONTACT</NavLink>
           </li>
         </ul>
       </nav>

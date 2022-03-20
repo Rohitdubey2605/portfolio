@@ -1,7 +1,7 @@
 .Profile{
     display: flex;
     justify-content: center;
-    position: relative;
+    position: static;
     margin-top: 100px;
 }
 
