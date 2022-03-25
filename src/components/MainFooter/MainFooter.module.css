@@ -1,12 +1,11 @@
-
-.MainFooter{
-    padding: 20px;
-    background-color: #f8f9fa;
-    text-align: center!important;
+.MainFooter {
+  padding: 20px;
+  background-color: #f8f9fa;
+  text-align: center !important;
 }
 
-.copyright{
-    color: black;
-    font-weight: 700;
-    text-decoration: none;
+.copyright {
+  color: black;
+  font-weight: 700;
+  text-decoration: none;
 }

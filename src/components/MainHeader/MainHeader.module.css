@@ -38,3 +38,10 @@
   background-color: white;
   color: #0069d9;
 }
+
+@media (max-width: 768px) {
+  .btn {
+    font-size: 15px;
+    margin-left: 33%;
+  }
+}

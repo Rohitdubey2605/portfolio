@@ -7,6 +7,12 @@
   margin-right: 5%;
 }
 
+@media (max-width: 768px) {
+  .WorkData {
+    flex-wrap: wrap;
+  }
+}
+
 .cardStyle {
   background-color: #f0f8ff;
   border-radius: 10px;
@@ -35,6 +41,7 @@
   font-weight: bold;
   display: flex;
   justify-content: center;
+  padding-top: 2%;
 }
 
 .p {
