@@ -11,6 +11,10 @@
   .WorkData {
     flex-wrap: wrap;
   }
+
+  .col-lg-6 {
+    margin-bottom: 15px;
+  }
 }
 
 .cardStyle {

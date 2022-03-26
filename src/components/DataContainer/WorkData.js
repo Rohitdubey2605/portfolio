@@ -22,7 +22,7 @@ const WorkData = (props) => {
         </CardComponent>
       </Col> */}
 
-      <Col lg={6}>
+      <Col className={styles["col-lg-6"]}>
         <CardComponent className={styles.cardStyle}>
           <header className={styles.header}>Software Engineer</header>
           <hr />
@@ -49,7 +49,7 @@ const WorkData = (props) => {
         </CardComponent>
       </Col>
 
-      <Col lg={6}>
+      <Col className={styles["col-lg-6"]}>
         <CardComponent>
           <header className={styles.header}>Software Engineer Intern</header>
           <hr />
